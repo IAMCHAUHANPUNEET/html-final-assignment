@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> lets signup</title>
+        <style>
+        *{
+    padding:0;
+    margin: 0;
+}
+header{
+    height: 15vh;
+    background-color: #0e0700;
+
+}
+ header h1{
+    padding-top: 0;
+    text-align: center;
+color: rgb(255, 255, 255);
+}
+.links{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.links a{
+    text-decoration: none;
+    color: rgb(253, 253, 254);
+    padding-left: 10px;
+}
+.logobox img{
+    animation: moveInRight 0.5s ease-in;
+}
+          
+            .box{
+    height: 90vh;
+    background-image:url("download.jpg");
+    position: relative;
+}
+  .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.box{
+    margin: 0 auto;
+    position: center;
+}
+.aa{
+    height: 250px;
+    width: 500px;
+background-color: white;
+border-radius: 5px;
+animation:moveInRight 1s ease-out;
+}
+.aa input:valid{
+                border: 2px solid green;
+            }
+        .aa input:invalid{
+                border: 2px solid red;
+            }
+form .email{
+    color: red;
+}
+.password{
+    color: red
+}
+.password2{
+    color: red
+}
+footer{
+   height: 15vh;
+    background-color: #0b0600;
+}
+footer h1{
+    text-align: center;
+color: rgb(254, 255, 255);
+}
+.links2{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.links2 a{
+    text-decoration: none;
+    color: rgb(251, 252, 254);
+    padding-left: 10px;
+}
+@keyframes moveInRight{
+    0%{
+        opacity: 0;
+        transform:translateX(-100px);
+    }
+    60%{
+        transform:translateX(10px);
+    }
+    100%{
+        transform:translateX(0);
+    }
+}
+
+    
+
+    
+
+    
+    
+}
+            </style>
+    </head>
+    <body> 
+        <header>
+        <div class="logobox">
+            <img src="fit1.png" alt="logo" height="30px" width="50px">
+            <h1> BE FIT BE STRONG 💪💪</h1>
+        </div>
+        <div class="links">
+            <a href="homepage.html">HOME</a>
+            <a href="nutrition.html">NUTRITIONS</a>
+            <a href="blogs.html">BLOGS</a>
+            <a href="#">LOGOUT</a>
+        </div>
+    </header>
+
+        </header>
+        <div class="box">
+            <div class="aa">
+        <form>
+            <label for="name"> ENTER YOUR NAME</label><br>
+            <input type="name" id="name" name="name"><br>
+            <label class="email"> ENTER YOUR EMAIL</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label class="password"> ENTER PASSWORD</label><br>
+            <input type="password" id="password" name="password" required><br>
+            <label class="password2"> CONFIRM PASWORD</label><br>
+            <input type="password" id="password2" name="confirm your password" required><br>
+            <p> WHAT IS YOUR GENDER</p>
+            <input type="radio" id="male" name="gender" >
+            <label for="male"> MALE</label><br>
+            <input type="radio" id="female" name="gender">
+            <label for="male"> FEMALE</label><br>
+            <input type="radio" id="male" name="gender">
+            <label for="male">OTHERS</label><br>
+        </form>
+   
+        <a href="gym.html" target="_blank"><button> Sign Up</button></a>
+    </div>
+</div>
+        <footer>
+            <div class="logobox2">
+                <img src="fit1.png" alt="logo" height="30px" width="30px">
+                <h1> BE FIT BE STRONG 💪💪</h1>
+            </div>
+            <div class="links2">
+                <a href="#">CONTACT US</a>
+                <a href="#">HELP CENTRE</a>
+                <a href="#">INSTAGRAM</a>
+                <a href="#">TWITTER</a>
+            </div>
+        </footer>
+    </body>
+</html>
